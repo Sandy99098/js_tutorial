@@ -1,0 +1,27 @@
+
+ h1{
+
+font-size:x-large;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+display: flex; 
+color: rgb(153, 139, 139);
+   justify-content: center;
+}
+
+.container{
+   background-color: red;
+   color:white;
+   text-align: center;
+   padding: 20px;
+   font-size: 20px;
+   font-family: cursive;
+   
+}
+
+@keyframes borderAnimation {
+   0% { border-color: #ff0000; }
+   25% { border-color: #00ff00; }
+   50% { border-color: #0000ff; }
+   75% { border-color: #ff00ff; }
+   100% { border-color: #ff0000; }
+}
